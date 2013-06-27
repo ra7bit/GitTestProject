@@ -1,0 +1,15 @@
+Dashboard "HUYanShare" in "Shared Dashboards" (created by any userid other than the userid runs the test cases)
+Dashboard in "My Dashboards":
+flute
+ScheduledHourly
+ScheduledDaily1
+ScheduledDaily2
+ScheduledMonthly1
+ScheduledMonthly2
+ScheduledWeekly
+ScheduledYearly1
+ScheduledYearly2 
+User "yahu"
+publishingList "HuYanList"
+Report Suite: asc-test1
+Limited User: scauto/111111

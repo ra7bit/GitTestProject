@@ -1,1 +1,14 @@
-a
+<products>
+    <product name="Demo Product" id="4" basedir=".">
+        <path location="." version="v15" level="smoke">    
+            <fileset dir="src/com/omniture/uiautomation/report/testcases">
+                <property name="productarea" value="report testcase"/>
+            </fileset>   
+        </path>
+        <path location="." version="v15" level="smoke">    
+            <fileset dir="src/com/omniture/uiautomation/report/testcases2">
+                <property name="productarea" value="report testcase"/>
+            </fileset>   
+        </path>
+    </product>
+</products>

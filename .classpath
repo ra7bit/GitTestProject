@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="libs/junit-4.10.jar" sourcepath="C:/Users/hsun/.m2/repository/junit/junit/4.10/junit-4.10-sources.jar"/>
+	<classpathentry kind="lib" path="libs/junit-addons-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/selenium-java-2.25.0.jar"/>
+	<classpathentry kind="lib" path="libs/selenium-server-standalone-2.25.0.jar"/>
+	<classpathentry kind="lib" path="libs/touchstoneapi.jar"/>
+	<classpathentry kind="lib" path="libs/sikuli-script.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
