@@ -5,20 +5,5 @@
                 <property name="productarea" value="report testcase"/>
             </fileset>   
         </path>
-        <path location="." version="v15" level="smoke">    
-            <fileset dir="src/com/omniture/uiautomation/alert/tests">
-                <property name="productarea" value="1"/>
-            </fileset>   
-        </path>
-        <path location="." version="v15" level="smoke">    
-            <fileset dir="src/com/omniture/uiautomation/bookmark/testcases">
-                <property name="productarea" value="2"/>
-            </fileset>   
-        </path>
-        <path location="." version="v15" level="smoke">    
-            <fileset dir="src/com/omniture/uiautomation/calendar/tests">
-                <property name="productarea" value="3"/>
-            </fileset>   
-        </path>
     </product>
 </products>
