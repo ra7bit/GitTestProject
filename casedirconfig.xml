@@ -15,10 +15,5 @@
                 <property name="productarea" value="2"/>
             </fileset>   
         </path>
-        <path location="." version="v15" level="smoke">    
-            <fileset dir="src/com/omniture/uiautomation/calendar/tests">
-                <property name="productarea" value="44222"/>
-            </fileset>   
-        </path>
     </product>
 </products>
