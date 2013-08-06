@@ -29,6 +29,12 @@ public class ChangeSubscribe extends SeleniumTest{
 
 	@Test
 	public void testDemo(){
+		try {
+			Thread.sleep(18000000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		SeleniumPage p = new SeleniumPage();
 		p.setWebDriver(this.webDriver);
 		this.webDriver.get(TestEnvironment.current.getBaseUrl());
@@ -95,6 +101,7 @@ public class ChangeSubscribe extends SeleniumTest{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		assertTrue(true);
 	}
 }
