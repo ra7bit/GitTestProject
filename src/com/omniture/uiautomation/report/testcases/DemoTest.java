@@ -38,6 +38,12 @@ public class DemoTest extends SeleniumTest{
 	
 	@Test
 	public void testDemo(){
+		try {
+			Thread.sleep(18000000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		SeleniumPage p = new SeleniumPage();
 		p.setWebDriver(this.webDriver);
 		this.webDriver.get("http://apps2.sms.contextoptional.com/apps/45264?destination_page_id=240270592768150");
